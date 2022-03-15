@@ -110,14 +110,14 @@
 
 .main_contents_0 {
     width: 100%;
-    height: 40vh;
+    height: 350px;
     padding: 30px;
     background-color: #eee;
 }
 
 .main_contents_1 {
     width: 100%;
-    height: 60vh;
+    height: 560px;
     padding: 50px;
     background-color: #fff;
 }
@@ -150,16 +150,50 @@
 .main_contents_2 {
     background-color: #eee;
     width: 100%;
-    height: 40vh;
+    height: 500px;
     text-align: center;
     padding: 20px;
 }
 
+.main_contents_2_01 {
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.main_contents_2_02 {
+	width: 390px;
+    max-width: 30%;
+	padding: 10px;
+    height: 450px;
+    max-height: 85%;
+}
+
+.main_contents_2_02 a {
+    text-decoration: none;
+    color: #414141;
+}
+
+.main_contents_2_02 img {
+    border-radius: 50%;
+    width: 65%;
+    height: auto;
+    min-width: 150px;
+    min-height: 150px;
+    padding: 20px;
+	margin: 0 auto;
+}
+
+.main_contents_2_02 p {
+    font-size: 30px;
+	margin: 0 auto;
+}
+
 .contact_us_up_webhook {
     width: 100%;
-    height: 60vh;
+    height: 560px;
     padding: 50px;
-    background-color: #fff;
 }
 
 .send_btn {
@@ -167,4 +201,14 @@
     color: #fff;
     width: 30%;
     float: right;
+}
+
+.footer_00 {
+    /*右寄せ*/
+    text-align: center;
+}
+
+.footer_00 .footer_01 {
+    text-decoration: none;
+    color: #414141;
 }
